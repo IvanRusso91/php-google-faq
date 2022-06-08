@@ -1,0 +1,25 @@
+
+.ir-container{
+  width: 70%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+span{
+  color: rgb(0, 162, 255);
+}
+
+span:hover{
+  cursor: pointer;
+  color: rgb(0, 89, 255);
+
+}
+
+p{
+  padding: 10px 0;
+}
+
+li{
+  padding: 10px 0;
+  list-style-type: lower-alpha;
+}
