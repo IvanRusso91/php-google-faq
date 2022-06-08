@@ -86,9 +86,37 @@ $db=[
 <body>
   <header>
 
+    <div class="container-fluid ">
+      <div class="box-logo">
+        <div class="logo">
+          <img src="img/Google.png" alt="logo">
+          <h4> Privacy e termini</h4>
+        </div>
+
+        <div class="utente">
+          <i class="fa-solid fa-grip-vertical"></i>
+          <i class="fa-solid fa-grip-vertical right"></i>
+          <img src="img/utente.png" alt="">
+        </div>
+      </div>
+
+      <div class="box-menu">
+        <nav>
+          <ul>
+            <li><a href="#">Introduzione</a></li>
+            <li><a href="#">Norme sulla privacy</a></li>
+            <li><a href="#">Termini di servizio</a></li>
+            <li><a href="#">Tecnologie</a></li>
+            <li><a class="active" href="#">Domande frequenti</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
   </header>
 
   <main>
+
     <div class="ir-container">
       <?php foreach($db as $infos): ?>
         <section>
@@ -98,10 +126,33 @@ $db=[
         </section>   
       <?php endforeach; ?> 
     </div>
+
   </main>
 
   <footer>
 
+    <div class="container-fluid">
+      <div class="ir-container ir">
+        <ul>
+          <li><a href="#">Google</a></li>
+          <li><a href="#">Tutto su Google</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Termini</a></li>
+        </ul>
+        
+        <div>
+          <i class="fa-solid fa-language"></i>
+          <select name="lingua">
+            <option value="">Italiano</option>
+            <option value="">Spagnolo</option>
+            <option value="">Inglese</option>
+            <option value="">Cinese</option>
+            <option value="">Tedesco</option>
+            <option value="">Svedese</option>
+          </select>
+        </div>
+      </div>
+    </div>
   </footer>
 </body>
 </html>

@@ -1,3 +1,4 @@
+/* Testo */
 
 .ir-container{
   width: 70%;
@@ -12,14 +13,128 @@ span{
 span:hover{
   cursor: pointer;
   color: rgb(0, 89, 255);
-
 }
 
 p{
   padding: 10px 0;
 }
 
+p:last-child{
+  padding-bottom: 30px ;
+}
+
 li{
   padding: 10px 0;
   list-style-type: lower-alpha;
 }
+
+/* /Testo */
+
+/* Header */
+
+.box-logo{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+img{
+  width: 95px;
+  padding: 20px 0px 0px 10px;
+}
+
+.container-fluid h4{
+  color: rgb(97, 97, 97);
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.right{
+  margin-left: -8px;
+}
+
+.utente img{
+  width: 60px;
+  margin-top: -10px;
+
+}
+
+.box-menu{
+  border-bottom: 1px solid rgb(97, 97, 97);
+}
+
+.box-menu ul{
+  list-style: none;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+
+.box-menu li{
+  display: inline-block;
+  padding-right: 30px;
+}
+
+.box-menu a{
+  color: rgb(120, 120, 120);
+  text-decoration: none;
+  font-weight:bold ;
+}
+
+.box-menu a:hover{
+  color: rgb(0, 89, 255);
+  border-bottom: 5px solid rgb(0, 89, 255);
+  padding-bottom: 12px;
+}
+
+.box-menu .active{
+  color: rgb(0, 89, 255);
+  border-bottom: 5px solid rgb(0, 89, 255);
+  padding-bottom: 12px;
+}
+
+/* /Header */
+
+/* Footer */
+
+footer{
+  background-color: rgb(233, 232, 232);
+}
+
+.ir{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.ir ul{
+  padding-left: 0;
+}
+
+.ir li{
+  display: inline-block;
+  list-style: none;
+  padding-right: 10px;
+  margin-top: 13px;
+  
+}
+
+.ir a{
+  text-decoration: none;
+  color: rgb(120, 120, 120);
+}
+
+select{
+  width: 150px;
+}
+
+.ir i{
+  color: rgb(0, 162, 255);
+  padding-right: 10px;
+
+}
+/* /footer */
